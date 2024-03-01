@@ -1,3 +1,25 @@
-#heading{
-    color: red;
-}
+.header {
+    display: flex; 
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: #f8f9fa;
+  }
+  
+  .header .img {
+    height: 50px;
+    width: auto;
+  }
+  
+  .header input[type="text"] {
+    margin: 0 20px; 
+    padding: 8px; 
+    border: 1px solid #ced4da; 
+    border-radius: 4px; 
+  }
+  
+  .header .user-icon {
+    height: 40px;
+    cursor: pointer; 
+  }
+  
